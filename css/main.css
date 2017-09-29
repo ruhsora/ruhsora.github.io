@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	color:#333333; 
+	background-color: #FFE4E1;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+}
+.nav{
+	text-align: center;
+	background-color:#FFFAFA;
+}
+.nav a {
+	font-size: 30px;
+	padding: 20px 25px;
+	display: inline-block;
+	text-decoration: none;
+	color:#F08080 ;
+	transition: color linear 250ms;
+
+}
+.nav a:hover{
+	color:#800000;
+}
+.title{
+	font-size: 35px;
+}
+.quote {
+	font-family: 'Just Another Hand', cursive;
+	font-size: 30px;
+}
+.card {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	text-align: center;
+	border-radius: 100%;
+	background-color:#FFFAFA;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
+	font-size: 30px;
+	font-family: 'Just Another Hand', cursive;
+	transition: transform linear 500ms;
+}
+.card-title{
+	font-weight:100;
+	margin: 0;
+}
+
+.card-content {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+}
+.card:hover{
+	transform: translateY(-20px);
+
+}
+
+footer {
+	font-size: 25px;
+	text-align: center;
+}
+main {
+	width: 90%;
+	margin:auto ;
+}
+.contact-link{
+	font-size:38px;
+	text-decoration: none;
+	margin: 5px;
+}
+.contact-link-i{
+	color:#ff2d55;
+}
+.contact-link-t{
+color:#007aff;
+}
+.contact-link-p{
+color:#4cd964;
+}
+
+
+
+
+
+
+
+
+
