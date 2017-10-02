@@ -8,6 +8,9 @@ body {
 .nav{
 	text-align: center;
 	background-color:#FFFAFA;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 .nav a {
 	font-size: 30px;
@@ -17,12 +20,13 @@ body {
 	color:#F08080 ;
 	transition: color linear 250ms;
 
+
 }
 .nav a:hover{
 	color:#800000;
 }
 .title{
-	font-size: 35px;
+	font-size: 70px;
 }
 .quote {
 	font-family: 'Just Another Hand', cursive;
@@ -80,7 +84,12 @@ color:#4cd964;
 }
 
 
-
+section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
 
 
